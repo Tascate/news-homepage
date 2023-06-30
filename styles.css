@@ -130,7 +130,37 @@ h2.new-header {
 }
 
 h3.new-title {
-  font-size: 18px;
+  font-size: 15px;
+}
+
+div.trending-articles {
+  display:flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+div.highlight-article {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+div.highlight-body {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0.75rem;
+}
+
+h2.highlight-header {
+  color: var(--grayishblue)
+}
+
+h3.highlight-title {
+  font-size: 15px;
 }
 
 .attribution {
