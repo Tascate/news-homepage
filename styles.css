@@ -17,6 +17,17 @@ img {
   width: 100%;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+img.logo {
+  width: 3rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
