@@ -170,10 +170,16 @@ h2.highlight-header {
   font-size: 28px;
 }
 
+footer {
+  padding-top: 2rem;
+  position: relative;
+  bottom: 0;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 .attribution a {
     color: hsl(228, 45%, 44%);
+    font-size: 11px;
 }
