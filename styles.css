@@ -26,10 +26,10 @@ h1, h2, h3, p {
   font-family: 'Inter', sans-serif;
 }
 
-h1 {font-size: 36px; font-weight: 800;}
-h2 {font-weight: 700;}
-h3 {font-weight: 700;}
-p {line-height: 1.5rem; font-size: 12px;}
+h1 {font-weight: 800; font-size: 36px; }
+h2 {font-weight: 700; font-size: 16px;}
+h3 {font-weight: 700; font-size: 16px;}
+p {line-height: 1.5rem; font-weight: 400; font-size: 12px; color: var(--darkgrayishblue);}
 
 img {
   width: 100%;
@@ -130,7 +130,11 @@ h2.new-header {
 }
 
 h3.new-title {
-  font-size: 15px;
+  color: var(--offwhite)
+}
+
+p.new-body {
+  color: var(--grayishblue);
 }
 
 div.trending-articles {
@@ -156,11 +160,8 @@ div.highlight-body {
 }
 
 h2.highlight-header {
-  color: var(--grayishblue)
-}
-
-h3.highlight-title {
-  font-size: 15px;
+  color: var(--grayishblue);
+  font-size: 28px;
 }
 
 .attribution {
