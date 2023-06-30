@@ -43,8 +43,11 @@ div.sidebar-overlay {
 }
 
 div.sidebar {
+  position: fixed;
   background-color: white;
-  margin-left: 30%;
+  top: 0;
+  right: 0;
+  width: 70%;
   height: 100%;
 }
 
@@ -73,7 +76,7 @@ img.header-img {
   width: auto;
 }
 
-img#close {
+img.close {
   float: right;
 }
 
