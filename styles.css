@@ -33,6 +33,23 @@ header {
   padding-bottom: 2rem;
 }
 
+div.sidebar {
+  position: fixed;
+  background-color: rgba(0,0,0,.5);
+  
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+div.sidebar-content {
+  background-color: white;
+  margin-left: 50%;
+  height: 100%;
+}
+
 img.logo {
   width: 3rem;
 }
