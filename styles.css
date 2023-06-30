@@ -111,6 +111,28 @@ button.main-article-button {
   height: 2.5rem;
 }
 
+div.new-article-list {
+  background-color: var(--verydarkblue);
+  color: var(--offwhite);
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  display:flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h2.new-header {
+  font-size: 32px;
+  color: var(--softorange);
+}
+
+h3.new-title {
+  font-size: 18px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
