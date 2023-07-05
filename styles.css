@@ -72,6 +72,11 @@ a {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+a:hover {
+  color: var(--softorange)
 }
 
 img.header-img {
@@ -101,6 +106,12 @@ button {
   font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.25rem;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--verydarkblue);
 }
 button.main-article-button {
   width: 10rem;
@@ -130,7 +141,12 @@ h2.new-header {
   color: var(--softorange);
 }
 h3.new-title {
-  color: var(--offwhite)
+  color: var(--offwhite);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+h3.new-title:hover {
+  color: var(--softorange);
 }
 p.new-body {
   color: var(--grayishblue);
@@ -160,6 +176,13 @@ div.highlight-description {
 h2.highlight-header {
   color: var(--grayishblue);
   font-size: 28px;
+}
+h3.highlight-title {
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+h3.highlight-title:hover {
+  color: var(--softred)
 }
 
 footer {
