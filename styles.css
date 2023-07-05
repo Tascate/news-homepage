@@ -141,12 +141,13 @@ div.highlight-article {
   place-items: center;
   grid-template-columns: 0.8fr 2fr;
 }
-div.highlight-body {
+div.highlight-description {
   padding-left: 1rem;
   padding-right: 0.5rem;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 100%;
   gap: 0.5rem;
 }
 h2.highlight-header {
