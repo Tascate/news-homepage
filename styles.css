@@ -176,6 +176,11 @@ footer {
 
 /*Desktop Layout*/
 @media screen and (min-width: 900px) {
+  body {
+    width: 72.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   /*Disable sidebar menu*/
   img.open, img.close {
     display: none;
