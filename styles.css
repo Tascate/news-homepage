@@ -227,6 +227,7 @@ footer {
   div.sidebar-overlay {
     position: inherit;
     display: inherit;
+    visibility: inherit;
     width: auto;
     height: auto;
     background-color: transparent;
@@ -238,6 +239,7 @@ footer {
     width: auto;
     height: auto;
     padding: 0;
+    transform: translateX(0);
   }
   div.sidebar-content {
     padding: 0;
