@@ -21,7 +21,7 @@
       <img class="header-img" src="assets/images/logo.svg" alt="news logo" />
 
       <div class="sidebar-overlay" id="sidebar-panel">
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
           <div class="sidebar-content">
             <img class="header-img close" onclick="closeSidebar()" src="assets/images/icon-menu-close.svg" />
             <nav class="sidebar-links"><a>Home</a> <a>New</a> <a>Popular</a> <a>Trending</a> <a>Categories</a></nav>
@@ -127,10 +127,14 @@
 
     <script>
       function openSidebar() {
-        document.getElementById("sidebar-panel").style.display = "block";
+        document.getElementById("sidebar-panel").style.visibility = "visible";
+        document.getElementById("sidebar-panel").classList.add('visible');
+        document.getElementById("sidebar").classList.add('visible');
       }
       function closeSidebar() {
-        document.getElementById("sidebar-panel").style.display = "none";
+        document.getElementById("sidebar-panel").classList.remove('visible');
+        document.getElementById("sidebar").classList.remove('visible');
+        document.getElementById("sidebar-panel").style.visibility = "collapse";
       }
     </script>
   </body>

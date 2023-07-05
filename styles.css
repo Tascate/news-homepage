@@ -40,13 +40,17 @@ header {
 }
 
 div.sidebar-overlay {
-  display: none;
+  visibility: hidden;
   position: fixed;
-  background-color: rgba(0,0,0,.5);
   top: 0;
   right: 0;
   width: 100%;
   height: 100%;
+
+  transition: all 0.3s ease-in;
+}
+div.sidebar-overlay.visible {
+  background-color: rgba(0,0,0,.5);
 }
 div.sidebar {
   position: fixed;
@@ -55,6 +59,12 @@ div.sidebar {
   right: 0;
   width: 70%;
   height: 100%;
+
+  transform: translateX(100%);
+  transition: transform .3s ease-in-out;
+}
+div.sidebar.visible {
+  transform: translateX(0);
 }
 div.sidebar-content {
   padding-top: 2rem;
@@ -82,9 +92,11 @@ a:hover {
 img.header-img {
   max-height: 2rem;
   width: auto;
+  cursor: pointer;
 }
 img.close {
   float: right;
+  cursor: pointer;
 }
 
 div.main-article {
