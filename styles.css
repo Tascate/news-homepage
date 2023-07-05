@@ -87,6 +87,10 @@ div.main-article {
   flex-direction: column;
   gap: 1.5rem;
 }
+div.main-article-text-button {
+  display:flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 button {
   background-color: var(--softred);
