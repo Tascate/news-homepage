@@ -99,7 +99,7 @@ button {
 }
 button.main-article-button {
   width: 10rem;
-  height: 2.5rem;
+  height: 2.75rem;
 }
 
 div.new-article-list {
@@ -212,6 +212,7 @@ footer {
 
   /*Swap to desktop layout*/
   main {
+    margin-top: 1.5rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 2rem;
@@ -236,5 +237,14 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+  }
+  div.main-article-text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  h1 {
+    font-size: 52px;
+    line-height: 3.5rem;
   }
 }
