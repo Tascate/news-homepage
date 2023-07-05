@@ -227,7 +227,7 @@ footer {
   div.sidebar-overlay {
     position: inherit;
     display: inherit;
-    visibility: inherit;
+    visibility: visible;
     width: auto;
     height: auto;
     background-color: transparent;
