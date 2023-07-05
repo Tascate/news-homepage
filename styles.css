@@ -204,4 +204,9 @@ footer {
     padding: 0;
     margin: auto;
   }
+
+  /*Swap to desktop layout*/
+  img.main-article-image {
+    content: url(./assets/images/image-web-3-desktop.jpg);
+  }
 }
