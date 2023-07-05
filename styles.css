@@ -79,6 +79,7 @@ nav {
   clear: right;
 }
 a {
+  color: var(--darkgrayishblue);
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
