@@ -174,3 +174,34 @@ footer {
   h3 {font-size: 21px;}
 }
 
+/*Desktop Layout*/
+@media screen and (min-width: 900px) {
+  /*Disable sidebar menu*/
+  img.open, img.close {
+    display: none;
+  }
+  div.sidebar-overlay {
+    position: inherit;
+    display: inherit;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+  }
+  div.sidebar {
+    position: inherit;
+    display: inherit;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+  div.sidebar-content {
+    padding: 0;
+    display: flex;
+  }
+  nav.sidebar-links{
+    flex-direction: row;
+    padding: 0;
+    margin: auto;
+  }
+}
