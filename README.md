@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://tolasc.github.io/news-homepage/](https://tolasc.github.io/news-homepage/)
+- Live Site URL: [https://tascate.github.io/news-homepage/](https://tascate.github.io/news-homepage/)
 
 ## My process
 
